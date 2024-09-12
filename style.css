@@ -211,10 +211,10 @@ section{
 }
 
 .btn{
-    display: inline-block;
-    padding: 1rem 2.8rem;
+    display: flex;
+    padding: 1rem 2.5rem;
     background-color: yellow;
-    width: 50%;
+    width: 80%;
     border-radius: 4rem;
     font-size: 1.6rem;
     color: black;
