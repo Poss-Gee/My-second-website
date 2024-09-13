@@ -12,7 +12,7 @@ const texts = [
     "SOFTWARE DEVELOPER",
     "WEB DESIGNER",
     "SYSTEM ANALYST",
-    "Hi, I’m Micky, a passionate developer from Ghana. I specialize in web development, system design, and more. Here’s a little more about my journey and interests!"
+    "passionate developer from Ghana. I specialize in web development, system design, and more. Here’s a little more about my journey and interests!"
 ];
 
 let speed = 100;
