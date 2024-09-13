@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Media Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color:black;
+            color: yellow;
+        }
+        header {
+            background-color: black;
+            color: yellow;
+            padding: 20px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        section {
+            margin: 20px 0;
+            padding: 20px;
+            background-color: black;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        nav{background-color: blue;}
+        h2 {
+            color: yellow;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        video, audio {
+            width: 100%;
+            border-radius: 8px;
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: yellow;
+            margin-top: 20px;
+        }
+        .btn{
+    display: inline-block;
+    padding: 1rem 2.8rem;
+    background-color: black;
+    border-radius: 4rem;
+    font-size: 1.6rem;
+    color: yellow;
+    letter-spacing: 0.3rem;
+    font-weight: 600;
+    border: 2px solid yellow;
+    transition: 0.3s ease;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale3d(1.03);
+    background-color: yellow;
+    color: black;
+    box-shadow: 0 0 25px blue;
+    border: 2px solid white;
+}
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Micky's Media</h1>
+        </div>
+    </header>
+    <section>
+            <h1>About Me</h1>
+            <img src="possi.jpg" alt="Ofori Michael" class="profile-image">
+            <p>Hi, I’m Micky, a passionate developer from Ghana. I specialize in web development, system design, and more. Here’s a little more about my journey and interests!</p>
+        <h2>Image Gallery</h2>
+        <img src="pexels-designecologist-1779487.jpg" alt="">
+        <img src="pexels-pixabay-39284.jpg" alt="">
+        <p>This is a sample image to demonstrate image inclusion in an HTML document.</p>
+    </section>
+    <nav>
+        <h2>Video Showcase</h2>
+        <video autoplay controls >
+            <source src="web-develloper.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+        <p>This is a sample video included in the project to showcase video embedding.</p>
+    </nav>
+    <section>
+        <h2>Audio Player</h2>
+        <audio controls>
+            <source src="KiDi_Ft_Black_Sherif_-_Lomo_Lomo.mp3" type="audio/mp3">
+            Your browser does not support the audio element.
+        </audio>
+        <p>This is a sample audio file to demonstrate audio embedding in an HTML page.</p>
+    </section>
+    <center>
+       </div>
+           <a href="index.html" class="btn">Home</a>
+       </div>
+    </center>
+    <footer>
+        <p>&copy; 2024 Ofori Michael. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
