@@ -11,7 +11,8 @@ function cancel() {
 const texts = [
     "DEVELOPER",
     "DESIGNER",
-    "YOUTUBER"
+    "YOUTUBER",
+    "Hi, I’m Micky, a passionate developer from Ghana. I specialize in web development, system design, and more. Here’s a little more about my journey and interests!"
 ];
 
 let speed = 100;
