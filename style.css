@@ -96,7 +96,7 @@ nav{
     height: auto;
     backdrop-filter: blur(4px) brightness(40%);
     box-shadow: 0 0 20px black;
-    transition: 0.2s linear;
+    transition: transform 0.3s ease;
 }
 
 .dropdown .links a{
